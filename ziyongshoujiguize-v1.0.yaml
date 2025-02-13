@@ -509,19 +509,19 @@ proxy-groups:
       - 苹果服务
 
 proxy-providers:
-  flower:  
+  jdz1: #名字
     type: http
-    url: https://api.xmancdn.net/osubscribe.php?sid=1363&token=LeE5eNYV&sip002=1
-    path: ./Proxies/peizhi11.yaml 
+    url: #链接
+    path: ./Proxies/peizhi11.yaml #数字记得改
     interval: 86400
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 3600
 
-  ctc:  
+  jdz2:  
     type: http
-    url: https://47.115.49.124:9999/api/v1/client/subscribe?token=10010030e091ce77782942e876fb7881
+    url: 
     path: ./Proxies/peizhi12.yaml 
     interval: 86400
     health-check:
@@ -529,20 +529,9 @@ proxy-providers:
       url: https://i.ytimg.com/generate_204
       interval: 3600
 
-  ykk:  
+  jdz3:  
     type: http
-    url: https://cloud.ykkk.tech/api/v1/client/subscribe?token=f695d5c3f39aae0317288f6de1dd1ec2
-    path: ./Proxies/peizhi13.yaml 
-    tls-verification: false
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 3600
-
-  shouhou:  
-    type: http
-    url: https://sub1.sntp.dev/baseStr?token=5a7aef777d1a7a686a7a099788174744
+    url: #下面是跳过证书验证
     path: ./Proxies/peizhi15.yaml 
     tls-verification: false
     interval: 86400
@@ -784,11 +773,11 @@ rule-providers:
     type: http
 
 rules:
-  - 'DOMAIN,https://cinema.makima.online,全球直连'
-  - 'DOMAIN,https://theater.makima.online,全球直连'
-  - 'DOMAIN,https://anime.makima.online,全球直连'
-  - 'DOMAIN,https://celluloid.makima.online,全球直连'
-  - 'DOMAIN,https://restrict.makima.online,全球直连'
+  - 'DOMAIN-SUFFIX,cinema.makima.online,全球直连'
+  - 'DOMAIN-SUFFIX,theater.makima.online,全球直连'
+  - 'DOMAIN-SUFFIX,anime.makima.online,全球直连'
+  - 'DOMAIN-SUFFIX,celluloid.makima.online,全球直连'
+  - 'DOMAIN-SUFFIX,restrict.makima.online,全球直连'
   - "RULE-SET,embyhuaihuai,emby"
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
