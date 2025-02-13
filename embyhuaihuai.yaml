@@ -1,9 +1,4 @@
 payload:
-  - DOMAIN,https://cinema.makima.online,DIRECT
-  - DOMAIN,https://theater.makima.online,DIRECT
-  - DOMAIN,https://anime.makima.online,DIRECT
-  - DOMAIN,https://celluloid.makima.online,DIRECT
-  - DOMAIN,https://restrict.makima.online,DIRECT
   - DOMAIN-SUFFIX,jcf.niceduck.lol,EMBY
   - DOMAIN-SUFFIX,media.nijigem.by,EMBY
   - DOMAIN-SUFFIX,ct.cdn.bgp.yt,EMBY
