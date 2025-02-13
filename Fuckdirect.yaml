@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,beacon.qq.com
   - DOMAIN-SUFFIX,beacon.cdn.qq.com
   - DOMAIN-SUFFIX,xiaomi.com
+  - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,zhihu.com
   - DOMAIN-SUFFIX,189.cn
