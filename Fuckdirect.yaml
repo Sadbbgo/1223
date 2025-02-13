@@ -2,3 +2,6 @@ payload:
   - DOMAIN-SUFFIX,micloud.xiaomi.net
   - DOMAIN-SUFFIX,beacon.qq.com
   - DOMAIN-SUFFIX,beacon.cdn.qq.com
+  - DOMAIN-SUFFIX,xiaomi.com
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,zhihu.com
