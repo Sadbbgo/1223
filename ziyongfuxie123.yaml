@@ -1,13 +1,3 @@
-dns:
-  enabled: true
-  nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
 proxy-groups:
   - name: 节点选择
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
@@ -322,6 +312,8 @@ proxy-groups:
       - 自动选择
       - 电报消息
       - OpenAi
+      - emby
+      - 推特
       - 油管视频
       - 巴哈姆特
       - 哔哩哔哩
@@ -555,6 +547,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  cn_ip:
+    url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.yaml
+    path: ./ruleset/cn_ip.yaml
+    behavior: ipcidr
+    interval: 86400
+    format: yaml
+    type: http
   Download:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
     path: ./ruleset/Download.list
@@ -565,9 +564,9 @@ rule-providers:
   embyhuaihuai:
     url: https://raw.githubusercontent.com/Sadbbgo/1223/refs/heads/main/embyhuaihuai.yaml
     path: ./ruleset/embyhuaihuai.list
-    behavior: domain
+    behavior: classical
     interval: 86400
-    format: text
+    format: yaml
     type: http
 
 rules:
@@ -584,6 +583,8 @@ rules:
   - "RULE-SET,GoogleFCM,谷歌FCM"
   - "RULE-SET,GoogleCN,全球直连"
   - "RULE-SET,SteamCN,全球直连"
+  - "RULE-SET,cn_ip,全球直连"
+  - "RULE-SET,X-rules,推特"
   - "RULE-SET,Bing,微软Bing"
   - "RULE-SET,OneDrive,微软云盘"
   - "RULE-SET,Microsoft,微软服务"
