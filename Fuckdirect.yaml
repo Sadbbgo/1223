@@ -5,4 +5,8 @@ payload:
   - DOMAIN-SUFFIX,xiaomi.com
   - DOMAIN-SUFFIX,miui.com
   - DOMAIN-SUFFIX,mi.com
-
+  - DOMAIN,https://cinema.makima.online
+  - DOMAIN,https://theater.makima.online
+  - DOMAIN,https://anime.makima.online
+  - DOMAIN,https://celluloid.makima.online
+  - DOMAIN,https://restrict.makima.online
