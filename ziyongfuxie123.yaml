@@ -568,6 +568,13 @@ rule-providers:
     interval: 86400
     format: yaml
     type: http
+  qiufengguize:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./ruleset/AWAvenue-Ads-Rule-Clash.yaml
+    url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml
+    interval: 86400
 
 rules:
   - 'DOMAIN,https://cinema.makima.online,全球直连'
@@ -576,6 +583,13 @@ rules:
   - 'DOMAIN,https://celluloid.makima.online,全球直连'
   - 'DOMAIN,https://restrict.makima.online,全球直连'
   - "RULE-SET,embyhuaihuai,emby"
+  - "RULE-SET,qiufengguize,REJECT"
+  - DOMAIN-SUFFIX,granbluefantasy.jp,日本节点
+  - DOMAIN-SUFFIX,prd-game-a-gbf.akamaized.net,日本节点
+  - DOMAIN-SUFFIX,prd-game-a1-gbf.akamaized.net,日本节点
+  - DOMAIN-SUFFIX,prd-game-a2-gbf.akamaized.net,日本节点
+  - DOMAIN-SUFFIX,prd-game-a3-gbf.akamaized.net,日本节点
+  - DOMAIN-SUFFIX,mbga.jp,日本节点
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
