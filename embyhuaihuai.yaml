@@ -27,4 +27,9 @@ payload:
   - DOMAIN-SUFFIX,pub2.emby.wtf
   - DOMAIN-SUFFIX,pub3.emby.wtf
   - DOMAIN-SUFFIX,acemby.org
+  - DOMAIN-SUFFIX,https://cinema.313445.xyz
+  - DOMAIN-SUFFIX,https://theater.313445.xyz
+  - DOMAIN-SUFFIX,https://anime.313445.xyz
+  - DOMAIN-SUFFIX,https://celluloid.313445.xyz
+  - DOMAIN-SUFFIX,https://restrict.313445.xyz
   
