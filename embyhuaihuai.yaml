@@ -11,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,line.emby.moe
   - DOMAIN-SUFFIX,line.xmsl.org
   - DOMAIN-SUFFIX,entry.zox.show
+  - DOMAIN-SUFFIX,cf.zox.show
   - DOMAIN-SUFFIX,hka-emby3.aliz.work
   - DOMAIN-SUFFIX,hkb-emby.aliz.work
   - DOMAIN-SUFFIX,hkb-emby2.aliz.work
