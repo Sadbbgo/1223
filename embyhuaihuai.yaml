@@ -28,8 +28,7 @@ payload:
   - DOMAIN-SUFFIX,pub2.emby.wtf
   - DOMAIN-SUFFIX,pub3.emby.wtf
   - DOMAIN-SUFFIX,acemby.org
-  - DOMAIN-SUFFIX,omni.313445.xyz
-  - DOMAIN-SUFFIX,restrict.313445.xyz
+  - DOMAIN-SUFFIX,matrix.313445.xyz
   - DOMAIN-SUFFIX,emby3.69yun69.com
   - DOMAIN-SUFFIX,emby2.69yun69.com
   - DOMAIN-SUFFIX,emby.69yun69.com
