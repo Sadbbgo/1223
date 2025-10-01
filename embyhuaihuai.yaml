@@ -25,6 +25,8 @@ payload:
   - DOMAIN-SUFFIX,emby.bangumi.ca
   - DOMAIN-SUFFIX,cf.jmsooo.com
   - DOMAIN-SUFFIX,pub1.emby.wtf
+  - DOMAIN-SUFFIX,pub1.term.wtf
+  - DOMAIN-SUFFIX,pub2.term.wtf
   - DOMAIN-SUFFIX,pub2.emby.wtf
   - DOMAIN-SUFFIX,pub3.emby.wtf
   - DOMAIN-SUFFIX,acemby.org
@@ -35,5 +37,6 @@ payload:
   - DOMAIN-SUFFIX,embymv.link
   
   
+
 
 
