@@ -2,6 +2,7 @@ payload:
   - DOMAIN-SUFFIX,jcf.niceduck.lol
   - DOMAIN-SUFFIX,media.nijigem.by
   - DOMAIN-SUFFIX,ct.cdn.bgp.yt
+  - DOMAIN-SUFFIX,server3.cn2gias.uk
   - DOMAIN-SUFFIX,cu.cdn.bgp.yt
   - DOMAIN-SUFFIX,emby.awatv.de
   - DOMAIN-SUFFIX,emby.cn2gias.uk
@@ -37,6 +38,7 @@ payload:
   - DOMAIN-SUFFIX,embymv.link
   
   
+
 
 
 
